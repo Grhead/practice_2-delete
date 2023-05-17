@@ -2,7 +2,6 @@ package main
 
 import (
 	"fmt"
-	"time"
 )
 
 func main() {
@@ -11,15 +10,4 @@ func main() {
 
 func ForBranch1(a int, b int) int {
 	return a ^ b - a*2
-}
-
-func ForBranch2(a float32) float32 {
-	return a / float32(time.Now().Hour())
-}
-
-func ForBranch3() string {
-
-}
-func ForBranch4() []string {
-
 }
