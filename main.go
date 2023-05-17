@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"time"
+)
 
 func main() {
 	fmt.Println(ForBranch1(4, 5))
@@ -10,9 +13,10 @@ func ForBranch1(a int, b int) int {
 	return a ^ b - a*2
 }
 
-func ForBranch2() float32 {
-
+func ForBranch2(a float32) float32 {
+	return a / float32(time.Now().Hour())
 }
+
 func ForBranch3() string {
 
 }
