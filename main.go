@@ -7,6 +7,7 @@ import (
 
 func main() {
 	fmt.Println(ForBranch1(4, 5))
+	fmt.Println(ForBranch2(4.5))
 }
 
 func ForBranch1(a int, b int) int {
