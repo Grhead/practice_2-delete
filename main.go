@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"time"
+	"math/rand"
 )
 
 func main() {
@@ -16,5 +17,8 @@ func ForBranch1(a int, b int) int {
 
 func ForBranch2(a float32) float32 {
 	return a / float32(time.Now().Hour())
+}
 
+func ForBranch3() string {
+	return fmt.Sprintf("%f", rand.Float64())
 }
